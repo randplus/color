@@ -1,0 +1,30 @@
+{
+  "name": "@randplus/color",
+  "version": "1.0.0-dev.0",
+  "description": "generate random colors. This package is included in 'randplus'.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otoneko1102/randplus-color.git"
+  },
+  "keywords": [
+    "random",
+    "plus",
+    "addon",
+    "extension",
+    "math",
+    "number",
+    "color",
+    "hex",
+    "rgb"
+  ],
+  "author": "otoneko.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otoneko1102/randplus-color/issues"
+  },
+  "homepage": "https://github.com/otoneko1102/randplus-color#readme"
+}
