@@ -1,5 +1,5 @@
 function color(format = 'hex', options = {}) {
-  const type = ['hex', 'rgb'];
+  const type = ['hex', 'rgb', 'word'];
   if (!type.includes(format)) throw new Error("invalid format.");
   const content = `\`color()\` is deprecated. Please use \`color.${format}()\` instead.`;
   process.emitWarning(
@@ -16,3 +16,4 @@ function color(format = 'hex', options = {}) {
 module.exports = color;
 module.exports.hex = require('./src/hex');
 module.exports.rgb = require('./src/rgb');
+module.exports.word = require('./src/word');

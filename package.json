@@ -1,6 +1,6 @@
 {
   "name": "@randplus/color",
-  "version": "1.0.0-dev.0",
+  "version": "1.0.0-dev.1",
   "description": "generate random colors. This package is included in 'randplus'.",
   "main": "index.js",
   "scripts": {
@@ -19,12 +19,26 @@
     "number",
     "color",
     "hex",
-    "rgb"
+    "rgb",
+    "name",
+    "word",
+    "ja",
+    "japan",
+    "japanese",
+    "cn",
+    "china",
+    "chinese"
   ],
   "author": "otoneko.",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/otoneko1102/randplus-color/issues"
   },
-  "homepage": "https://github.com/otoneko1102/randplus-color#readme"
+  "homepage": "https://github.com/otoneko1102/randplus-color#readme",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "axios": "^1.7.7"
+  }
 }
