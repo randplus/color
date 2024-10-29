@@ -10,8 +10,8 @@ const random = require('@randplus/color');
 console.log(random('hex')); // '000000' ~ 'ffffff'
 console.log(random('hex', { prefix: '#' })); // '#000000' ~ '#ffffff'
 console.log(random('rgb')); // [0, 0, 0] ~ [255, 255, 255]
-console.log(color('word')); // 'limegreen'
-console.log(color('word', { language: 'ja' })); // '鉄色'
+console.log(random('word')); // 'limegreen'
+console.log(random('word', { language: 'ja' })); // '鉄色'
 ```
 ```js
 // Advanced
@@ -22,6 +22,20 @@ console.log(hex('#')); // '#000000' ~ '#ffffff'
 console.log(rgb()); // [0, 0, 0] ~ [255, 255, 255]
 console.log(word()); // 'limegreen'
 console.log(word('cn')); // '紫磨金'
+```
+
+### Get Color Name Example:
+Install [color-name-lib](https://www.npmjs.com/package/color-name-lib).
+```sh
+npm i color-name-lib
+```
+```js
+const { hex } = require('@randplus/color');
+const colorName = require('color-name-lib');
+
+const colorHex = hex();
+const name = colorName(colorHex);
+console.log(`${colorName}: ${name}`);
 ```
 
 ## Get Support
