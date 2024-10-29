@@ -35,7 +35,16 @@ const colorName = require('color-name-lib');
 
 const colorHex = hex();
 const name = colorName(colorHex);
-console.log(`${colorName}: ${name}`);
+console.log(`${colorHex}: ${name}`);
+```
+or use `lib/color-name-lib.js`.
+```js
+const { hex } = require('@randplus/color');
+const colorName = require('@randplus/color/lib/color-name-lib');
+
+const colorHex = hex();
+const name = colorName(colorHex);
+console.log(`${colorHex}: ${name}`);
 ```
 
 ## Get Support
