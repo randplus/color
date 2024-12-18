@@ -1,3 +1,9 @@
+/**
+ * @functions
+ * Returns a hex randomly.
+ * @param {string?} prefix - Character to place before hex.
+ * @returns Returns a random hex.
+ */
 function hex(prefix = '') {
   if (typeof prefix !== 'string') throw new Error('prefix must be string.');
   const [r, g, b] = require('./rgb')();

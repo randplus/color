@@ -1,3 +1,10 @@
+/**
+ * @function 
+ * Returns a color randomly.
+ * @param {'hex' | 'rgb' | 'word' | null} format - Choose a random color format. 
+ * @param {{ language?: 'en' | 'ja' 'cn'; prefix?: string } | null} options - Options.
+ * @returns {string | [number, number, number]} Returns a random color.
+ */
 function color(format = 'hex', options = {}) {
   const type = ['hex', 'rgb', 'word'];
   if (!type.includes(format)) throw new Error("invalid format.");
