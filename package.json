@@ -37,5 +37,8 @@
   "homepage": "https://github.com/randplus/color#readme",
   "dependencies": {
     "color-name-lib": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0"
   }
 }

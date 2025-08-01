@@ -3,9 +3,7 @@ Generate random colors.<br>
 This package is included in '[randplus](https://www.npmjs.com/package/randplus)'.
 
 ###### Teams
-<a href="https://oto.pet/"><img src="https://raw.githubusercontent.com/randplus/docs/main/img/randplus.png" alt="OTONEKO.CAT" style="display: block; width: auto; height: 100px;"/></a>
-<a href="https://oto.pet/"><img src="https://www.otoneko.cat/img/logo.png" alt="OTONEKO.CAT" style="display: block; width: auto; height: 100px;"/></a>
-<a href="https://www.otoho.me/"><img src="https://www.otoho.me/img/logo.png" alt="Oto Home" style="display: block; width: auto; height: 100px;"/></a>
+<img src="https://raw.githubusercontent.com/randplus/docs/main/img/randplus.png" alt="OTONEKO.CAT" style="display: block; width: auto; height: 100px;"/>
 
 ## Usage
 ```js
@@ -51,6 +49,3 @@ const colorHex = hex();
 const name = colorName(colorHex);
 console.log(`${colorHex}: ${name}`);
 ```
-
-## Get Support
-<a href="https://discord.gg/yKW8wWKCnS"><img src="https://discordapp.com/api/guilds/1005287561582878800/widget.png?style=banner4" alt="Discord Banner"/></a>
